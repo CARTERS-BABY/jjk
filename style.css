@@ -1,0 +1,43 @@
+body{
+    background-image: url('disk.gif');
+    background-size: cover;
+    text-align: center;
+
+}
+.title{
+    font-size: 25px;
+    width: 100%;
+    margin: 0;
+
+}
+.nota{
+    font-size: 15px;
+    color: blanchedalmond;
+    
+}
+.velocidade{
+    float: left;
+}
+.volume{
+    float: right;
+
+}
+.velocidade-img, 
+.volume-img{
+ width: 200px;
+ border-radius: 100px;
+
+}
+#velocidade, 
+#volume{
+    font-size: 20px;
+    margin: 15px;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    width: 600px;
+    height: 500px;
+    margin-left: 300px;
+}
+
